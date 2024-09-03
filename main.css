@@ -1,0 +1,71 @@
+header{
+    padding: 0px 72px;
+}
+
+.menu_logo_container{
+    width: 106px;
+    height: 32px;
+}
+
+.nav_elements_container{
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: space-between;
+    perspective: 2000px;
+}
+
+.menu_group_1{
+    /* z-index: 120; */
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.signup_btn{
+    background-color: black;
+    color: white;
+}
+
+.menu_items .menulink{
+    display: inline-block;
+    padding: 6px 16px 16px;
+    color: #0a0c0f;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    transition: padding .5s ease;
+}
+
+.main-section{
+    padding-top: 80px;
+}
+
+.hero_section_container{
+    padding: 0px 64px;
+}
+
+.hero_section .col-12 h1{
+    text-transform: uppercase;
+    color: #74757b;
+    font-size: 48px;
+    line-height: 48px;
+    font-family: Gabarito, sans-serif;
+    margin: 0px 0px 24px;
+}
+
+.video_block{
+    display: flex;
+    position: unset;
+    padding-inline: 16px;
+}
+
+video{
+    object-fit: contain;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: auto 674 / 640;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
