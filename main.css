@@ -19,16 +19,24 @@ header {
 .menu-group-2 {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 10px;
     font-size: 16px;
 }
 
 .menu-group-1 {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 20px;
     padding-top: 10px;
     font-size: 16px;
+}
+
+.menu-items{
+    padding: 20px 24px;
+}
+
+.menu-items:hover{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
 }
 
 .signup-btn {
