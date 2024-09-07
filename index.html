@@ -9,22 +9,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="">
     <title>Document</title>
 </head>
 
 <body>
     <!-- Navbar starts -->
-    <!-- <header>
+    <header>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12 p-0">
-                    <nav id="main-nav" class="navbar fixed-top">
-                        <div class="nav_elements_container container">
-                            <div class="menu_group_1">
-                                <div class="menu_logo_container">
+                    <nav id="main-nav">
+                        <div class="nav-elements-container">
+                            <div class="menu-group-1">
+                                <div class="menu-logo-container">
                                     <a href="index.html">
                                         <svg enable-background="new 0 0 1600 477" viewBox="0 0 1600 477"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -94,29 +97,29 @@
                                         </svg>
                                     </a>
                                 </div>
-                                <div class="menu_items">
-                                    <a href="#" class="menu_link text-transform-none">Sell</a>
+                                <div class="menu-items">
+                                    <a href="#" class="menu-link text-transform-none">Sell</a>
                                 </div>
-                                <div class="menu_items">
-                                    <a href="#" class="menu_link">Simplify</a>
+                                <div class="menu-items">
+                                    <a href="#" class="menu-link">Simplify</a>
                                 </div>
-                                <div class="menu_items">
-                                    <a href="#" class="menu_link">Grow</a>
+                                <div class="menu-items">
+                                    <a href="#" class="menu-link">Grow</a>
                                 </div>
                             </div>
-                            <div class="menu_group_2">
-                                <div class="menu_items">
-                                    <a href="#" class="menu_link">Resources</a>
+                            <div class="menu-group-2">
+                                <div class="menu-items">
+                                    <a href="#" class="menu-link">Resources</a>
                                 </div>
-                                <div class="menu_items">
-                                    <a href="#" class="menu_link">Pricing</a>
+                                <div class="menu-items">
+                                    <a href="#" class="menu-link">Pricing</a>
                                 </div>
-                                <div class="menu_items">
-                                    <a href="#" class="menu_link">Login</a>
+                                <div class="menu-items">
+                                    <a href="#" class="menu-link">Login</a>
                                 </div>
-                                <div class="menu_items">
-                                    <div class="menu_button">
-                                        <a href="#" class="signup_btn btn">Get started for FREE</a>
+                                <div class="menu-items">
+                                    <div class="menu-button">
+                                        <a href="#" class="signup-btn btn">Get started for FREE</a>
                                     </div>
                                 </div>
                             </div>
@@ -124,7 +127,11 @@
                     </nav>
                 </div>
             </div>
-    </header> -->
+        </div>
+    </header>
+
+
+
     <!-- Navbar Content End -->
 
     <section class="main-section">
@@ -175,6 +182,14 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
+
+    <script>
+        document.querySelector('[data-toggle="menu"]').addEventListener('click', function () {
+            var menu = document.getElementById("mobile_menu");
+            menu.style.display = (menu.style.display === "block") ? "none" : "block";
+        });
+
+    </script>
 </body>
 
 </html>
